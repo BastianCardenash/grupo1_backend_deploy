@@ -22,6 +22,7 @@
   },
   "scripts": {
     "start": "node src/index.js",
-    "dev": "nodemon --legacy-watch src/index.js"
+    "dev": "nodemon --legacy-watch src/index.js",
+    "deploy": "node start.js"
   }
 }
